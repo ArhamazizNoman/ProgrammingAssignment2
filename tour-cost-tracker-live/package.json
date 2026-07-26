@@ -1,0 +1,13 @@
+{
+  "name": "tour-cost-tracker-live",
+  "version": "1.0.0",
+  "description": "Real-time shared tour cost tracker. Everyone on the trip sees the same live totals.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=16"
+  },
+  "license": "MIT"
+}
