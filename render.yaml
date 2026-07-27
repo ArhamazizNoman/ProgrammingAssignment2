@@ -1,0 +1,11 @@
+# Render deployment config for the live Tour Cost Tracker.
+# In Render: New + -> Blueprint -> connect this repo -> it reads this file.
+services:
+  - type: web
+    name: tour-cost-tracker
+    runtime: node
+    plan: free
+    rootDir: tour-cost-tracker-live
+    buildCommand: npm install
+    startCommand: node server.js
+    autoDeploy: true
